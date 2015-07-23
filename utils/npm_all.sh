@@ -12,9 +12,9 @@ echo swagger-def        && cd swagger-def       && npm install --no-bin-links ; 
 echo mongrel2           && cd mongrel2          && cd ../
 echo dbc                && cd dbc               && npm install --no-bin-links ; cd ../
 echo cloudlet-utils     && cd cloudlet-utils    && npm install --no-bin-links ; cd ../
-echo openi-logger       && cd openi-logger      && npm install --no-bin-links ; cd ../
+echo peat-logger        && cd peat-logger       && npm install --no-bin-links ; cd ../
 echo api-builder        && cd api-builder       && cd ../
 echo api-framework      && cd api-framework     && cd ../
-echo openi_android_sdk  && cd openi_android_sdk && cd ../
+echo peat_android_sdk   && cd peat_android_sdk  && cd ../
 echo api-builder        && cd api-builder       && cd ../
 echo uaa                && cd uaa               && cd ../

@@ -9,15 +9,15 @@ curl --cacert $SSL_CERT -X POST \
   "@context": [
     {
       "@property_name": "images",
-      "@openi_type": "attachment",
+      "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://openi-ict.eu/images/ids"
+      "@context_id": "https://peat-platform.eu/images/ids"
     }
   ],
-  "@reference": "https://openi-ict.eu/images"
+  "@reference": "https://peat-platform.eu/images"
 }' \
-  https://dev.openi-ict.eu:443/api/v1/types
+  https://dev.peat-platform.eu:443/api/v1/types
 
 
 curl --cacert $SSL_CERT -X POST \
@@ -27,15 +27,15 @@ curl --cacert $SSL_CERT -X POST \
   "@context": [
     {
       "@property_name": "videos",
-      "@openi_type": "attachment",
+      "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://openi-ict.eu/videos/ids"
+      "@context_id": "https://peat-platform.eu/videos/ids"
     }
   ],
-  "@reference": "https://openi-ict.eu/videos"
+  "@reference": "https://peat-platform.eu/videos"
 }' \
-  https://dev.openi-ict.eu:443/api/v1/types
+  https://dev.peat-platform.eu:443/api/v1/types
 
 
 curl --cacert $SSL_CERT -X POST \
@@ -45,15 +45,15 @@ curl --cacert $SSL_CERT -X POST \
   "@context": [
     {
       "@property_name": "pdfs",
-      "@openi_type": "attachment",
+      "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://openi-ict.eu/pdfs/ids"
+      "@context_id": "https://peat-platform.eu/pdfs/ids"
     }
   ],
-  "@reference": "https://openi-ict.eu/pdfs"
+  "@reference": "https://peat-platform.eu/pdfs"
 }' \
-  https://dev.openi-ict.eu:443/api/v1/types
+  https://dev.peat-platform.eu:443/api/v1/types
 
 
 
@@ -64,12 +64,12 @@ curl --cacert $SSL_CERT -X POST \
   "@context": [
     {
       "@property_name": "audio",
-      "@openi_type": "attachment",
+      "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://openi-ict.eu/audio/ids"
+      "@context_id": "https://peat-platform.eu/audio/ids"
     }
   ],
-  "@reference": "https://openi-ict.eu/audio"
+  "@reference": "https://peat-platform.eu/audio"
 }' \
-  https://dev.openi-ict.eu:443/api/v1/types
+  https://dev.peat-platform.eu:443/api/v1/types
