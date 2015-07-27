@@ -38,7 +38,7 @@ curl --cacert $SSL_CERT -X PUT \
          }
       }
    }' \
-  http://admin:password@dev.peat-platform.eu:8092/objects/_design/cloudlets_views
+  http://admin:password@dev.peat-platform.org:8092/objects/_design/cloudlets_views
 
 curl --cacert $SSL_CERT -X PUT \
   -H "Accept:application/json" \
@@ -54,7 +54,7 @@ curl --cacert $SSL_CERT -X PUT \
          }
       }
    }' \
-  http://admin:password@dev.peat-platform.eu:8092/types/_design/type_views
+  http://admin:password@dev.peat-platform.org:8092/types/_design/type_views
 
 
   curl --cacert $SSL_CERT -X PUT \
@@ -70,7 +70,7 @@ curl --cacert $SSL_CERT -X PUT \
         }
       }
     }' \
-  http://admin:password@dev.peat-platform.eu:8092/objects/_design/subscription_views
+  http://admin:password@dev.peat-platform.org:8092/objects/_design/subscription_views
 
 
 curl --cacert $SSL_CERT -X PUT \

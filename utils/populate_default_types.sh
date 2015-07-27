@@ -12,12 +12,12 @@ curl --cacert $SSL_CERT -X POST \
       "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://peat-platform.eu/images/ids"
+      "@context_id": "https://peat-platform.org/images/ids"
     }
   ],
-  "@reference": "https://peat-platform.eu/images"
+  "@reference": "https://peat-platform.org/images"
 }' \
-  https://dev.peat-platform.eu:443/api/v1/types
+  https://dev.peat-platform.org:443/api/v1/types
 
 
 curl --cacert $SSL_CERT -X POST \
@@ -30,12 +30,12 @@ curl --cacert $SSL_CERT -X POST \
       "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://peat-platform.eu/videos/ids"
+      "@context_id": "https://peat-platform.org/videos/ids"
     }
   ],
-  "@reference": "https://peat-platform.eu/videos"
+  "@reference": "https://peat-platform.org/videos"
 }' \
-  https://dev.peat-platform.eu:443/api/v1/types
+  https://dev.peat-platform.org:443/api/v1/types
 
 
 curl --cacert $SSL_CERT -X POST \
@@ -48,12 +48,12 @@ curl --cacert $SSL_CERT -X POST \
       "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://peat-platform.eu/pdfs/ids"
+      "@context_id": "https://peat-platform.org/pdfs/ids"
     }
   ],
-  "@reference": "https://peat-platform.eu/pdfs"
+  "@reference": "https://peat-platform.org/pdfs"
 }' \
-  https://dev.peat-platform.eu:443/api/v1/types
+  https://dev.peat-platform.org:443/api/v1/types
 
 
 
@@ -67,9 +67,9 @@ curl --cacert $SSL_CERT -X POST \
       "@type": "attachment",
       "@required": false,
       "@multiple": true,
-      "@context_id": "https://peat-platform.eu/audio/ids"
+      "@context_id": "https://peat-platform.org/audio/ids"
     }
   ],
-  "@reference": "https://peat-platform.eu/audio"
+  "@reference": "https://peat-platform.org/audio"
 }' \
-  https://dev.peat-platform.eu:443/api/v1/types
+  https://dev.peat-platform.org:443/api/v1/types

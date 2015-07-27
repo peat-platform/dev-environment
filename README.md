@@ -19,7 +19,7 @@ Some people may have difficulty with the ssh forward agent feature, to address t
 
 Add the following entry into your /etc/hosts file.
 
-    192.168.33.10 dev.peat-platform.eu
+    192.168.33.10 dev.peat-platform.org
 
 Install Vagrant
 
@@ -67,9 +67,9 @@ Once the VM has been built and provisioned execute the following commands to get
 
     sh /vagrant/utils/populate_couchbase_views.sh
 
-    sh /vagrant/utils/generate_api_clients.sh dev.peat-platform.eu
+    sh /vagrant/utils/generate_api_clients.sh dev.peat-platform.org
 
-Navigate to `http://dev.peat-platform.eu/api-docs/` on your host system and try out a few of the endpoints.
+Navigate to `http://dev.peat-platform.org/api-docs/` on your host system and try out a few of the endpoints.
 
 All the Cloudlet Platforms modules are downloaded to a shared folder `/home/vagrant/repos` on the Virtual Machine and which ever directory you set the PEAT_REPO_PATH variable to on the Host. All edits to module files on the Host are replicated on the VM. To test changes you need to ssh into the VM by firstly changing directory to `peat_dev_env` and then running the `vagrant ssh` command. Once you have SSHed into the VM, navigate to the module that you edited on the Host in e.g. `cd /home/vagrant/repos/object_api`, install the node dependencies with the `npm install` command, and run the build script (includes jshint and unit tests) with the `grunt jenkins`. To run the module in isolation execute the `node lib/local-runner.js` command (The module may have a dependency on others so you may have to start more than one to test it properly).
 
